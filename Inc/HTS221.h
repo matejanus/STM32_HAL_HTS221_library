@@ -1,6 +1,8 @@
 #pragma once
 #include "i2cDriver.h"
 
+#define HTS221_ADDR   	((uint8_t)0xBE)
+
 enum HTS221_registers
 {
 	WHO_AM_I = 0x0F,
